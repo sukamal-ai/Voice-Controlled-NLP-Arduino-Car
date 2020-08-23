@@ -30,4 +30,4 @@
   
 </ol>
 
-<img src="https://github.com/sukamal1928/Voice-Controlled-NLP-Arduino-Car/blob/master/car.jpeg">
+<img height=400 width=400 src="https://github.com/sukamal1928/Voice-Controlled-NLP-Arduino-Car/blob/master/car.jpeg">
