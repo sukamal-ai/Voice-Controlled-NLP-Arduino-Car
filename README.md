@@ -25,7 +25,7 @@
      </ul>
   </li>
   
-  </li>Arduino - executes the action</li>
+  <li>Arduino - executes the action</li>
   
 </ol>
 
