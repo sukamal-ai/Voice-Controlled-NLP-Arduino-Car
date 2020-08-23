@@ -30,3 +30,4 @@
   
 </ol>
 
+<img src="https://github.com/sukamal1928/Voice-Controlled-NLP-Arduino-Car/blob/master/car.jpeg">
