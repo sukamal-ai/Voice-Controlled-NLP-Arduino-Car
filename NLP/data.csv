@@ -1,0 +1,69 @@
+voice,command
+go,a
+go fast,a
+go straight,a
+go straight fast,a
+go forward,a
+go forward fast,a
+move,a
+move fast,a
+move straight,a
+move straight fast,a
+move forward,a
+move forward fast,a
+go quick,a
+go straight quick,a
+move quick,a
+move straight quick,a
+go forward quick,a
+move forward quick,a
+go slow,b
+go straight slow,b
+go forward slow,b
+move straight slow,b
+move forward slow,b
+move slow,b
+move slowly,b
+move forward slowly,b
+move straight slowly,b
+go forward slowly,b
+go straight slowly,b
+go slowly,b
+go back,c
+go back fast,c
+move back,c
+move back fast,c
+move backward,c
+move backward fast,c
+go back quick,c
+move back quick,c
+go backward quick,c
+move backward quick,c
+go backward,c
+come back,c
+come back fast,c
+come back quick,c
+reverse,c
+take reverse quick,c
+go back slow,d
+move back slow,d
+move backward slow,d
+come back slow,d
+go backward slow,d
+come backward slow,d
+come back slowly,d
+come backward slowly,d
+go back slowly,d
+go backward slowly,d
+take reverse slowly,d
+take slow reverse,d
+left,e
+turn left,e
+take left,e
+leftside,e
+right,f
+turn right,f
+take right,f
+rightside,f
+stop,g
+break,g
