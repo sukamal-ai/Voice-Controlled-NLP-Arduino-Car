@@ -1,4 +1,4 @@
-# NLP_Arduino_Car
+# Voice Controlled (NLP) Arduino Car
 
 <p> A voice controlled Arduino Car</p> 
 <p> The Car understands Natural Langauge (Commands to move into different directions) </p>
