@@ -15,18 +15,17 @@
        <li>Trained a Decision Tree Classifier</li>
        <li>Converted the classifier into Java code using sklearn-porter</li> 
      </ul>
+  </li>
     
-  </li>Android Application
+  <li>Android Application
       <ul>
        <li>Android application converts speech to text</li>
        <li>The text is further preprocessed and passed to the model (DT Classifier Java code) for prediction</li>
        <li>Send the model output (action) to Arduino via bluetooth</li> 
      </ul>
-  <li>
-  
-  </li>Arduino - executes the action
-    
   </li>
   
+  </li>Arduino - executes the action</li>
+  
 </ol>
-<iframe width="748" height="421" src="https://www.youtube.com/embed/5IRSK7ewmZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
