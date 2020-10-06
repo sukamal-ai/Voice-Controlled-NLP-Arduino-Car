@@ -1,0 +1,220 @@
+class DecisionTreeClassifier {
+
+    private static int findMax(int[] nums) {
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
+            index = nums[i] > nums[index] ? i : index;
+        }
+        return index;
+    }
+
+    public static int predict(double[] features) {
+        int[] classes = new int[7];
+            
+        if (features[14] <= 0.5) {
+            if (features[15] <= 0.5) {
+                if (features[0] <= 0.5) {
+                    if (features[1] <= 0.5) {
+                        if (features[7] <= 0.5) {
+                            if (features[12] <= 0.5) {
+                                if (features[11] <= 0.5) {
+                                    if (features[13] <= 0.5) {
+                                        if (features[8] <= 0.5) {
+                                            if (features[2] <= 0.5) {
+                                                if (features[16] <= 0.5) {
+                                                    classes[0] = 18; 
+                                                    classes[1] = 0; 
+                                                    classes[2] = 0; 
+                                                    classes[3] = 0; 
+                                                    classes[4] = 0; 
+                                                    classes[5] = 0; 
+                                                    classes[6] = 0; 
+                                                } else {
+                                                    classes[0] = 0; 
+                                                    classes[1] = 0; 
+                                                    classes[2] = 0; 
+                                                    classes[3] = 0; 
+                                                    classes[4] = 0; 
+                                                    classes[5] = 0; 
+                                                    classes[6] = 1; 
+                                                }
+                                            } else {
+                                                classes[0] = 0; 
+                                                classes[1] = 0; 
+                                                classes[2] = 0; 
+                                                classes[3] = 0; 
+                                                classes[4] = 0; 
+                                                classes[5] = 0; 
+                                                classes[6] = 1; 
+                                            }
+                                        } else {
+                                            classes[0] = 0; 
+                                            classes[1] = 0; 
+                                            classes[2] = 0; 
+                                            classes[3] = 0; 
+                                            classes[4] = 1; 
+                                            classes[5] = 0; 
+                                            classes[6] = 0; 
+                                        }
+                                    } else {
+                                        classes[0] = 0; 
+                                        classes[1] = 0; 
+                                        classes[2] = 0; 
+                                        classes[3] = 0; 
+                                        classes[4] = 0; 
+                                        classes[5] = 1; 
+                                        classes[6] = 0; 
+                                    }
+                                } else {
+                                    classes[0] = 0; 
+                                    classes[1] = 0; 
+                                    classes[2] = 2; 
+                                    classes[3] = 0; 
+                                    classes[4] = 0; 
+                                    classes[5] = 0; 
+                                    classes[6] = 0; 
+                                }
+                            } else {
+                                classes[0] = 0; 
+                                classes[1] = 0; 
+                                classes[2] = 0; 
+                                classes[3] = 0; 
+                                classes[4] = 0; 
+                                classes[5] = 3; 
+                                classes[6] = 0; 
+                            }
+                        } else {
+                            classes[0] = 0; 
+                            classes[1] = 0; 
+                            classes[2] = 0; 
+                            classes[3] = 0; 
+                            classes[4] = 3; 
+                            classes[5] = 0; 
+                            classes[6] = 0; 
+                        }
+                    } else {
+                        classes[0] = 0; 
+                        classes[1] = 0; 
+                        classes[2] = 5; 
+                        classes[3] = 0; 
+                        classes[4] = 0; 
+                        classes[5] = 0; 
+                        classes[6] = 0; 
+                    }
+                } else {
+                    classes[0] = 0; 
+                    classes[1] = 0; 
+                    classes[2] = 9; 
+                    classes[3] = 0; 
+                    classes[4] = 0; 
+                    classes[5] = 0; 
+                    classes[6] = 0; 
+                }
+            } else {
+                if (features[9] <= 0.5) {
+                    if (features[6] <= 0.5) {
+                        classes[0] = 0; 
+                        classes[1] = 0; 
+                        classes[2] = 0; 
+                        classes[3] = 3; 
+                        classes[4] = 0; 
+                        classes[5] = 0; 
+                        classes[6] = 0; 
+                    } else {
+                        if (features[1] <= 0.5) {
+                            if (features[0] <= 0.5) {
+                                classes[0] = 0; 
+                                classes[1] = 3; 
+                                classes[2] = 0; 
+                                classes[3] = 0; 
+                                classes[4] = 0; 
+                                classes[5] = 0; 
+                                classes[6] = 0; 
+                            } else {
+                                classes[0] = 0; 
+                                classes[1] = 0; 
+                                classes[2] = 0; 
+                                classes[3] = 1; 
+                                classes[4] = 0; 
+                                classes[5] = 0; 
+                                classes[6] = 0; 
+                            }
+                        } else {
+                            classes[0] = 0; 
+                            classes[1] = 0; 
+                            classes[2] = 0; 
+                            classes[3] = 1; 
+                            classes[4] = 0; 
+                            classes[5] = 0; 
+                            classes[6] = 0; 
+                        }
+                    }
+                } else {
+                    classes[0] = 0; 
+                    classes[1] = 3; 
+                    classes[2] = 0; 
+                    classes[3] = 0; 
+                    classes[4] = 0; 
+                    classes[5] = 0; 
+                    classes[6] = 0; 
+                }
+            }
+        } else {
+            if (features[0] <= 0.5) {
+                if (features[1] <= 0.5) {
+                    if (features[11] <= 0.5) {
+                        classes[0] = 0; 
+                        classes[1] = 6; 
+                        classes[2] = 0; 
+                        classes[3] = 0; 
+                        classes[4] = 0; 
+                        classes[5] = 0; 
+                        classes[6] = 0; 
+                    } else {
+                        classes[0] = 0; 
+                        classes[1] = 0; 
+                        classes[2] = 0; 
+                        classes[3] = 1; 
+                        classes[4] = 0; 
+                        classes[5] = 0; 
+                        classes[6] = 0; 
+                    }
+                } else {
+                    classes[0] = 0; 
+                    classes[1] = 0; 
+                    classes[2] = 0; 
+                    classes[3] = 3; 
+                    classes[4] = 0; 
+                    classes[5] = 0; 
+                    classes[6] = 0; 
+                }
+            } else {
+                classes[0] = 0; 
+                classes[1] = 0; 
+                classes[2] = 0; 
+                classes[3] = 3; 
+                classes[4] = 0; 
+                classes[5] = 0; 
+                classes[6] = 0; 
+            }
+        }
+    
+        return findMax(classes);
+    }
+
+    public static void main(String[] args) {
+        if (args.length == 20) {
+
+            // Features:
+            double[] features = new double[args.length];
+            for (int i = 0, l = args.length; i < l; i++) {
+                features[i] = Double.parseDouble(args[i]);
+            }
+
+            // Prediction:
+            int prediction = DecisionTreeClassifier.predict(features);
+            System.out.println(prediction);
+
+        }
+    }
+}
